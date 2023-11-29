@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         ol#parent{
+            border: solid black 2px;
+
+         }
+         ol.child {
+            column-count: 2;
+         }
+
+         ol.child li{
+            padding: 5px;
+            color: blue;
+         }
+
+    </style>
+</head>
+<body>
+
+    <ol id="parent">
+        <li>
+            <ol class="child">
+                <li >ali</li>
+                <li >reza</li>
+            </ol>
+        </li>
+
+        <li>
+            <ol class="child">
+                <li>amin</li>
+                <li>hossein</li>
+            </ol>
+        </li>
+    </ol>
+    
+</body>
+</html>
